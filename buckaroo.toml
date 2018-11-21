@@ -1,0 +1,9 @@
+targets = [ "//:vector-tile" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-geometry.hpp"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/mapbox-protozero"
+version = "branch=master"

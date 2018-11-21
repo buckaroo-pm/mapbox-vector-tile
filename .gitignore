@@ -4,3 +4,10 @@ mason_packages
 demo/decode
 demo/data
 demo/include
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo_macros.bzl
+BUCKAROO_DEPS

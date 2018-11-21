@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'demo', 
+  srcs = [
+    'decode.cpp', 
+  ], 
+  deps = [
+    '//:vector-tile', 
+  ], 
+)
